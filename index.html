@@ -1,12 +1,523 @@
-<!DOCTYPE html><html lang="en"><head>
-  <meta charset="utf-8">
-  <title>Leo Varghese</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-<style>@font-face{font-family:ubuntu-light;src:url(Ubuntu-Light.c2bf1bb61db6c8149ae8.ttf);}body{background:#bdc3c7;background:linear-gradient(90deg,#2c3e50,#bdc3c7);min-height:100vh;background-attachment:fixed;background-position:50%;background-repeat:no-repeat;background-size:cover;font-family:ubuntu-light!important;}:root{--blue:#007bff;--indigo:#6610f2;--purple:#6f42c1;--pink:#e83e8c;--red:#dc3545;--orange:#fd7e14;--yellow:#ffc107;--green:#28a745;--teal:#20c997;--cyan:#17a2b8;--white:#fff;--gray:#6c757d;--gray-dark:#343a40;--primary:#007bff;--secondary:#6c757d;--success:#28a745;--info:#17a2b8;--warning:#ffc107;--danger:#dc3545;--light:#f8f9fa;--dark:#343a40;--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px;--font-family-sans-serif:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;}*,:after,:before{box-sizing:border-box;}html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent;}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;font-size:1rem;font-weight:400;line-height:1.5;color:#212529;text-align:left;background-color:#fff;}@media print{*,:after,:before{text-shadow:none!important;box-shadow:none!important;}@page {size:a3;}body{min-width:992px!important;}}</style><link rel="stylesheet" href="styles.5e49272113457155bdfb.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.5e49272113457155bdfb.css"></noscript></head>
-<body>
-  <app-root></app-root>
-<script src="runtime.22410af728b674af945d.js" defer></script><script src="polyfills.576b39bb9d2aeadc82ba.js" defer></script><script src="scripts.5f3b806f7608df846e20.js" defer></script><script src="main.ee512aabb00bbd9d8b65.js" defer></script>
+<!DOCTYPE html>
+<html lang="en">
 
-</body></html>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - MyResume Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="index-page dark-background">
+
+  <header id="header" class="header d-flex flex-column justify-content-center">
+
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#home" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
+        <li><a href="#skills"><i class="bi bi-tools"></i><span>Skills</span></a></li>
+        <li><a href="#career"><i class="bi bi-mortarboard"></i><span>Career</span></a></li>
+        <li><a href="#projects"><i class="bi bi-person-workspace"></i><span>Projects</span></a></li>
+        <li><a href="#milestones"><i class="bi bi-trophy"></i><span>Milestones</span></a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section dark-background">
+
+      <img src="assets/img/hero-bg-1.jpg" alt="">
+
+      <div class="container" data-aos="zoom-out">
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <h2>Leo Varghese</h2>
+            <p>I'm <span class="typed" data-typed-items="Full Stack Developer, DevOps Enthusiast, Freelancer, Performance Engineer">Full Stack Developer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+            <div class="social-links">
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/leovarghese/"><i class="bi bi-linkedin"></i></a>
+              <a href="mailto:leogopuran@gmail.com"><i class="bi bi-envelope-paper"></i></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section dark-background">
+
+      <!-- Section Title -->
+      <div class="container section-title pb-0" data-aos="fade-up">
+        <h2>About</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="assets/img/profile-img-1.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 content pt-5">
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <p class="fst-italic py-3">Passionate and focused Software Engineer with 8+ years of experience in programming. Have a strong desire for knowledge and challenges. Actively involved with the latest technology and updates in the public cloud platforms and web development field.</p></li>
+              <li><i class="bi bi-chevron-right"></i> <p class="fst-italic py-3">
+                Engineer driven by a love for creating intuitive, user-friendly applications. With a focus on clean code and performance, I build everything from dynamic frontends to robust backend systems.
+              </p></li>
+              <li><i class="bi bi-chevron-right"></i> <p class="fst-italic py-3">
+                Loves exploring new technologies and refining my skills to deliver modern, scalable solutions. Let’s turn ideas into reality!
+              </p></li>
+            </ul>
+            
+            
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>"Code is my canvas—whether it’s front-end finesse or back-end logic, I create solutions that are both functional and future-ready."</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row skills-content skills-animation">
+
+          <div class="col-lg-4">
+
+            <div class="progress">
+              <span class="skill"><span>Java</span> <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Python</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>SpringBoot</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Angular</span> <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+          </div>
+
+          <div class="col-lg-4">
+
+            <div class="progress">
+              <span class="skill"><span>HTML</span> <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Javascript</span> <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Bootstrap</span> <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+          </div>
+
+          <div class="col-lg-4">
+
+            <div class="progress">
+              <span class="skill"><span>Amazon Web Services</span> <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Azure</span> <i class="val">50%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>DevOps</span> <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Git/Svn/Perforce</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="career" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Career</h2>
+        <p>"Continuously learning, evolving, and building solutions that make a difference."</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Professional Experience</h3>
+
+            <div class="resume-item">
+              <h4>Full Stack Engineer</h4>
+              <h5>August 2022 - Present</h5>
+              <p><em>IBM, Kochi, India</em></p>
+              <ul>
+                <li>Actively involved in optimising performance of Instana observability tool.</li>
+                <li>Design and develop internal utilities that can improve performance of product modules.</li>
+                <li>Automate kubernetes deployments of the products using CI-CD.</li>
+                <li>Design, develop web tools that help sizing the product for customers.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>IT Analyst</h4>
+              <h5>March 2019 - August 2022</h5>
+              <p><em>Tata Consultancy Services, Kochi, India</em></p>
+              <ul>
+                <li>Designed and Implemented micro-service architecture for client applications.</li>
+                <li>Migrated several key client applications to AWS Cloud environment with high scalability and availability. </li>
+                <li>Hands on experience working on event driven applications using Active MQ and AWS SQS.</li>
+                <li>Extensive experience focusing on services like EC2, Cloud Watch, AWS Lambda, S3, AWS RDS, Step Functions, SQS, Code pipeline/Code Deploy.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Senior Software Engineer</h4>
+              <h5>September 2016 - February 2019</h5>
+              <p><em>IBS Software, Kochi, India</em></p>
+              <ul>
+                <li>Experience working with major travel fare aggregators for Expedia.</li>
+                <li>Rich knowledge on Airline Domain</li>
+                <li>Developed micro-services and web tools to help in driving the client business.</li>
+                <li>Good experience on monitoring tools like Grafana, Splunk, AWS Cloudwatch.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>MBA in Operations Management</h4>
+              <h5>2020 - 2022</h5>
+              <p><em>Indira Gandhi National Open University, Kochi, India</em></p>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>BTech in Computer Science</h4>
+              <h5>2012 - 2016</h5>
+              <p><em>Adi Shankara Institute of Engineering and Technology, Kalady, India</em></p>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Portfolio Section -->
+    <section id="projects" class="services section">
+
+      <!-- Portfolio Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>"I love exploring new technologies, bringing ideas to life, and building innovative projects that push boundaries while sharpening my skills and creativity."</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item item-cyan position-relative">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
+                </svg>
+                <i class="bi bi-github"></i>
+              </div>
+              <a href="https://github.com/leogopuran/vanishing-wall" class="stretched-link">
+                <h3>Vanishing Wall</h3>
+              </a>
+              <p>A platform for people to post anonymous feeds that vanishes after a certain duration and gets replaced by new feeds. The application runs using the WebSocket protocol.</p>
+              <div class="row p-2 mt-5">
+                <span class="badge bg-light text-dark col-3 mx-2">HTML</span>
+                <span class="badge bg-light text-dark col-3 mx-2">SpringBoot</span>
+                <span class="badge bg-light text-dark col-3 mx-2">Angular</span>
+                <span class="badge bg-light text-dark col-3 mx-2 mt-2">WebSocket</span>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item item-cyan position-relative">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
+                </svg>
+                <i class="bi bi-github"></i>
+              </div>
+              <a href="https://github.com/leogopuran/GreenMart" class="stretched-link">
+                <h3>GreenMart</h3>
+              </a>
+              <p>Platform to sell and buy organic fruits and vegies.</p>
+              <div class="row p-2 mt-5">
+                <span class="badge bg-light text-dark col-3 mx-2">HTML</span>
+                <span class="badge bg-light text-dark col-3 mx-2">SpringBoot</span>
+                <span class="badge bg-light text-dark col-3 mx-2">Angular</span>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item item-cyan position-relative">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
+                </svg>
+                <i class="bi bi-github"></i>
+              </div>
+              <a href="https://github.com/leogopuran/HurdleRun" target="_blank" class="stretched-link">
+                <h3>HurdleRun</h3>
+              </a>
+              <p>A simple Game</p>
+              <div class="row p-2 mt-5">
+                <span class="badge bg-light text-dark col-3 mx-2">HTML</span>
+                <span class="badge bg-light text-dark col-3 mx-2">Javascript</span>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item item-cyan position-relative">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
+                </svg>
+                <i class="bi bi-github"></i>
+              </div>
+              <a href="https://github.com/leogopuran/Discuss" target="_blank" class="stretched-link">
+                <h3>Discuss</h3>
+              </a>
+              <p>A chat application</p>
+              <div class="row p-2 mt-5">
+                <span class="badge bg-light text-dark col-3 mx-2">HTML</span>
+                <span class="badge bg-light text-dark col-3 mx-2">CSS</span>
+                <span class="badge bg-light text-dark col-3 mx-2">Javascript</span>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item item-cyan position-relative">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
+                </svg>
+                <i class="bi bi-github"></i>
+              </div>
+              <a href="https://github.com/leogopuran/ImageComparator" target="_blank" class="stretched-link">
+                <h3>ImageComparator</h3>
+              </a>
+              <p>Project to compare two uploaded images using PHP scripts.</p>
+              <div class="row p-2 mt-5">
+                <span class="badge bg-light text-dark col-3 mx-2">PHP</span>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Certifications Section -->
+    <section id="milestones" class="testimonials section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Milestones</h2>
+        <p>"Every certification marks growth, every achievement fuels my drive to keep learning and pushing the limits."</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <img src="assets/img/achievements/aws-certificate.png" class="img-fluid" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <img src="assets/img/achievements/ibm-kube.png" class="img-fluid" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <img src="assets/img/achievements/startup-mission.png" class="img-fluid" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative dark-background">
+    <div class="container">
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright &copy;</span> <strong class="px-1 sitename">Leo Varghese</strong> <span>All Rights Reserved</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
