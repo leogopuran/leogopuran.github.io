@@ -1,19 +1,28 @@
-# LEO VARGHESE
-**Senior Full Stack Developer & Cloud Architect**
+<img src="assets/img/dp.jpg" align="right" width="140" style="border-radius: 15px; margin: 0 0 15px 15px;">
 
-📍 Kochi, India | ✉️ leogopuran@gmail.com 
-🔗 [LinkedIn](https://www.linkedin.com/in/leovarghese/) | 💻 [GitHub](https://github.com/leogopuran) | 🌐 [Interactive Portfolio](https://leogopuran.github.io/)
+<h1 style="border-bottom: none; margin-bottom: 0.1em; padding-bottom: 0;">LEO VARGHESE</h1>
+<h3 style="margin-top: 0; font-weight: 500; color: #555;">Senior Full Stack Developer & Cloud Architect</h3>
+
+<div style="line-height: 1.6; margin-bottom: 20px;">
+  <span>📍 Kochi, India</span> &nbsp;|&nbsp; 
+  <span>✉️ <a href="mailto:leogopuran@gmail.com" style="text-decoration: none;">leogopuran@gmail.com</a></span><br>
+  <span>🔗 <a href="https://www.linkedin.com/in/leovarghese/" style="text-decoration: none;">LinkedIn</a></span> &nbsp;|&nbsp; 
+  <span>💻 <a href="https://github.com/leogopuran" style="text-decoration: none;">GitHub</a></span> &nbsp;|&nbsp; 
+  <span>🌐 <a href="https://leogopuran.github.io/" style="text-decoration: none;">Interactive Portfolio</a></span>
+</div>
 
 ---
 
 ## PROFESSIONAL SUMMARY
-Performance-driven Senior Full Stack Developer and AWS Certified Solutions Architect with over 8 years of experience engineering high-throughput, cloud-native applications. Currently driving performance engineering for the Instana observability platform at IBM India Software Labs. Unique blend of deep technical expertise in event-driven microservices (Java/Python/Kafka) and business execution strategy (MBA in Operations Management). Passionate about accelerating the Software Development Life Cycle (SDLC) through Generative AI, the Model Context Protocol (MCP), and integrating Small Language Models (SLMs) into enterprise products. Known as a reliable, cross-functional technical mentor with a strict "performance-first" mindset and a track record of consistent on-time delivery.
+Senior Full Stack Developer and AWS Certified Solutions Architect with over 9 years of experience engineering scalable, cloud-native applications. Currently driving performance engineering for the Instana observability platform at IBM India Software Labs. 
+
+Demonstrates a proven ability to combine deep technical expertise in API-first and event-driven microservices (Java, Python, REST, Kafka) with a strategic business perspective (MBA in Operations) to deliver high-throughput, fault-tolerant solutions. Deeply invested in advancing software engineering practices by integrating Generative AI, Small Language Models (SLMs), and autonomous coding agents to accelerate enterprise development lifecycles.
 
 ---
 
 ## CORE COMPETENCIES
 * **Backend & Architecture:** Java, Python, SpringBoot, Microservices, Event-Driven Architecture (EDA)
-* **Cloud & DevOps:** Amazon Web Services (AWS), Microsoft Azure, Kubernetes, Containerization, Jenkins, Concourse CI/CD
+* **Cloud & DevOps:** Amazon Web Services (AWS), Microsoft Azure, Kubernetes, Containerization, Jenkins, Concourse CI/CD, Git, Bitbucket
 * **Data & Streaming:** Apache Kafka, ClickHouse, Elasticsearch, ActiveMQ, AWS SQS
 * **Frontend & UI/UX:** Angular, JavaScript, HTML5, CSS3, Bootstrap
 * **Performance & Operations:** Performance Benchmarking, System Troubleshooting, SDLC Management, Technical Mentorship

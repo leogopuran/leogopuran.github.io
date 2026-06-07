@@ -273,17 +273,20 @@ h1, h2, h3 {
 
 .icon-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(65px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(75px, 1fr));
   gap: 15px;
+  align-items: start;
 }
 
 .skill-item {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
   text-align: center;
   transition: transform 0.3s ease;
   cursor: pointer;
+  height: 100%;
 }
 
 .skill-item:hover {
@@ -293,6 +296,10 @@ h1, h2, h3 {
 .skill-item i {
   font-size: 2.5rem;
   margin-bottom: 8px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--text-muted);
   filter: drop-shadow(0 0 10px rgba(255,255,255,0.0));
   transition: color 0.3s ease, filter 0.3s ease;
@@ -311,6 +318,7 @@ h1, h2, h3 {
   font-size: 0.8rem;
   color: var(--text-muted);
   font-weight: 500;
+  line-height: 1.2;
 }
 
 /* Projects */
